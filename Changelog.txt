@@ -1,4 +1,61 @@
 =======================
+     2020/08/12
+=======================
+
+* Repository: https://github.com/Aospify/platform_build/commits/Q
+
+edcb49b2f Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD
+
+* Repository: https://github.com/Aospify/platform_frameworks_base/commits/Q
+
+9119b77ab1c Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+* Repository: https://github.com/Aospify/platform_packages_apps_DeskClock/commits/Q
+
+8ea32e219 DeskClock: Fix alarm clock screen show black  when screen locked;
+1974c5e8c AOSP/DeskClock - Call executePendingTransactions only if mFragmentManager is not destroyed. Fixes the crash bug. Code matches internal code.
+
+* Repository: https://github.com/Aospify/platform_packages_apps_Settings/commits/Q
+
+b442431588 Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+* Repository: https://github.com/Aospify/platform_packages_services_Telephony/commits/Q
+
+15289cb48 Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD
+
+* Repository: https://github.com/Aospify/platform_vendor_aosp/commits/Q
+
+cc02f9fe vendor: Release 1.1 (August '20)
+
+* Repository: https://github.com/kdrag0n/proton-clang/commits/master
+
+b0b32ba Update to 20200808 build
+
+* Repository: https://github.com/LineageOS/android_hardware_qcom_display/commits/lineage-17.1-caf-sm8250
+
+4ab176b0e Add C2D_COLOR_FORMAT_420_P010 to C2D_YUV_FORMAT
+
+* Repository: https://github.com/PixelExperience/device_custom_sepolicy/commits/ten
+
+91d2585 sepolicy: Drop wifi-ext
+
+* Repository: https://github.com/PixelExperience/device_qcom_sepolicy/commits/ten
+
+72338ed5 sepolicy: Drop wifi-ext
+
+* Repository: https://github.com/PixelExperience/device_qcom_sepolicy-legacy-um/commits/ten
+
+7b07fb4 sepolicy: Drop wifi-ext
+
+* Repository: https://github.com/PixelExperience/device_custom_sepolicy/commits/ten
+
+a725cbb sepolciy: wifi-ext: Guard atoll from wifi-ext/legacy sepolicy
+
+* Repository: https://github.com/kdrag0n/proton-clang/commits/master
+
+45c59ca Update to 20200801 build
+
+=======================
      2020/07/17
 =======================
 
