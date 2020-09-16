@@ -1,4 +1,140 @@
 =======================
+     2020/09/16
+=======================
+
+* Repository: https://github.com/Aospify/platform_build/commits/Q
+
+f8f9ea30 vendor: Release 1.2 (September '20)
+70c4c4a83 Revert "vendor: Bring-in Launcher3"
+64a79da51 When compiling, use release-keys tag not dev-keys
+a42c638f3 Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/build into HEAD
+
+* Repository: https://github.com/Aospify/platform_vendor_aosp/commits/Q
+
+a6597894 extract_utils: Add support for system_ext
+8af78e2a build: kernel: Add back support for selecting latest clang version
+4371925b Revert "vendor: Drop Lawnchair"
+d8ea415a kernel: Use CPATH for including host headers
+
+* Repository: https://github.com/Aospify/platform_frameworks_opt_vcard/commits/Q
+
+6290b3e PBAP client, download favorite contacts
+
+* Repository: https://github.com/PixelExperience/bootable_recovery/commits/ten
+
+6a14fb0d updater: Run make_parents before creating file
+8f97c4e8 updater: Ignore ENOENT in some functions
+
+* Repository: https://github.com/PixelExperience/system_sepolicy/commits/ten
+
+e208123d6 Don't give uid-based categories to app_zygote and isolated processes.
+a5258e1ab Fix sepolicy_tests on Mac 10.15
+
+* Repository: https://github.com/Aospify/platform_frameworks_av/commits/Q
+
+64a9d1ee5 JAudioTrack: fix bitwise evaluation
+c39c75fc6 Finer synchronization for nuplayer stats
+b7599b086 libstagefright: Use regex patterns for updated libyuv
+aa9e3b850 NuPlayer: Force update mediatime for first audio buffer
+9af272486 StagefrightRecorder: force 64-bit file-offsets for files > 4GB
+25f2779e7 AudioPolicyManager: Handle error from setInputDevice in startInput
+5f70c9e4e audiopolicy: Load the engine library dynamically
+5d725b4e9 Remove usages of USE_XML_AUDIO_POLICY_CONF
+48aea6992 GraphicBufferSource: ensure EOS buffer can be submitted
+09e82e3af libstagefright: Allow HFR-60 in HAL-3 recording
+7a29f1324 audio: add support for error handling of dsp SSR
+5a88a038c aaudio: set primary flag for AAUDIO_PERFORMANCE_MODE_NONE
+2a87d48bf Fix memory leak in MPEG2PSExtractor
+e80c31687 Fix native exception occurred when seeking mp4 file
+5448733bf Fix out of bounds access
+f9913a328 validate width*height doesn't overflow in image file
+6f144d7cc Fix exception when delete an uninitialized object
+2346a515c codec2: read fallback ION params from system properties
+acd4a91e8 mTraits is used without been locked
+5a63f5639 codec2: fallback to yuv420p color format thumbnail in C2
+f029dfee7 vorbisdec: support 192Khz sample rate for vorbis
+48e469996 aacenc: handle and warn overlapping timestamps
+
+* Repository: https://github.com/Aospify/platform_frameworks_base/commits/Q
+
+d8fbea42f73 Explicitly grant FORCE_STOP_PACKAGES to com.android.launcher3
+fe9723407c4 base: Add missing color attribute for Themes
+d0affcd8b20 Revert "Enable appcompaction based on property"
+51724203001 Revert "Reclaime ANON or File pages based on configuration"
+ed848867503 Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+* Repository: https://github.com/PixelExperience/hardware_interfaces/commits/ten
+
+28bdc8cf9 [android10-dev] thermal: Init module to NULL
+
+* Repository: https://github.com/Aospify/platform_packages_apps_Settings/commits/Q
+
+c5b35913c6 Bring back SeLinux version
+d59f510557 Settings: use style ActionPrimaryButton for buttons
+99c4c0b486 Settings: restyle that horrible sim select dialog
+c3c5405b65 Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+* Repository: https://github.com/PixelExperience/packages_services_BuiltInPrintService/commits/ten
+
+c0dd239 Automatic translation import
+
+* Repository: https://github.com/LineageOS/android_vendor_qcom_opensource_system_bt/commits/lineage-17.1
+
+614a3e2ac Changed HID_DEV_MTU_SIZE from 64 to 512
+
+* Repository: https://github.com/PixelExperience/device_custom_sepolicy/commits/ten
+
+d756f5f sepolicy: Add pocket judge selinux policy
+6348929 sepolicy: Add selinux policy for pocket bridge
+
+* Repository: https://github.com/LineageOS/android_hardware_samsung/commits/lineage-17.1
+
+5cf721c power-libperfmgr: move double tap to wake out of setInteractive()
+
+
+* Repository: https://github.com/PixelExperience/build_soong/commits/ten
+
+21e76870 Add support for macOS 11 SDK
+b95d812c Add support for 10.15 SDK
+
+* Repository: https://github.com/PixelExperience/packages_apps_Nfc/commits/ten
+
+e17e403f Avoid NFC continuous crash
+
+* Repository: https://github.com/AOSIP/platform_prebuilts_clang_host_linux-x86/commits/ten
+
+afcfd82e Update prebuilt Clang to r399163 (11.0.4).
+
+* Repository: https://github.com/Aospify/platform_external_gptfdisk/commits/Q
+
+1b6e922 Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/external/gptfdisk into HEAD
+
+* Repository: https://github.com/Aospify/platform_frameworks_native/commits/Q
+
+c92af2180 touch response optimizations
+b189fde3c Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/frameworks/native into HEAD
+
+* Repository: https://github.com/Aospify/platform_frameworks_opt_telephony/commits/Q
+
+527616f90 Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD
+
+* Repository: https://github.com/Aospify/platform_packages_apps_Bluetooth/commits/Q
+
+6cd6283e Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/packages/apps/Bluetooth into HEAD
+
+* Repository: https://github.com/Aospify/platform_packages_services_Telecomm/commits/Q
+
+bab29cbb Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD
+
+* Repository: https://github.com/Aospify/platform_packages_services_Telephony/commits/Q
+
+d624bf9cd Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD
+
+* Repository: https://github.com/Aospify/platform_system_bt/commits/Q
+
+717ab44de Merge tag 'android-10.0.0_r45' of https://android.googlesource.com/platform/system/bt into HEAD
+
+=======================
      2020/08/12
 =======================
 
